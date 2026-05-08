@@ -23,6 +23,16 @@ Results
 <img width="626" height="332" alt="image" src="https://github.com/user-attachments/assets/e76cf2b8-24f2-4db4-9f15-f5d118630362" />
 Binary Fields Remaining
 
+Next, I took the return flag field to see how balanced the results are in the data set. The chart easily shows how balanced the results are. 
+<img width="746" height="680" alt="image" src="https://github.com/user-attachments/assets/e3ce03c7-c712-47c7-abb3-afb9259a60a0" />
+Balance of Outcomes
+<img width="505" height="222" alt="image" src="https://github.com/user-attachments/assets/e56d13ac-39dd-4d58-8011-05b38e84c8bb" />
+The dataset is split into a training and test set, with 20% used to train the model. The dataset split is checked. 
+<img width="427" height="232" alt="image" src="https://github.com/user-attachments/assets/ec049376-37a9-48a5-80a1-c2a0f792b8d3" />
+
+
+
+
 
 
 
