@@ -1,4 +1,9 @@
-## Hi there 👋
+# Christmas Sales Data Science Project
+## Background
+
+In the run up to Christmas, retail stores hold sales events, such as Black Friday, in order to increase footfall into brick and mortar stores and online traffic to their web based sales. The sales events are used to increase sales and brand awareness, upping profit to stores. 
+As sales events can increase the likelihood for individuals to purchase items on a whim, this analytical project has been introduced to see if items are more likely to be returned if they were purchased during a sales event. 
+
 
 <!--
 **BP0324006/BP0324006** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
