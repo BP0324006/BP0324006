@@ -29,10 +29,25 @@ Balance of Outcomes
 <img width="505" height="222" alt="image" src="https://github.com/user-attachments/assets/e56d13ac-39dd-4d58-8011-05b38e84c8bb" />
 The dataset is split into a training and test set, with 80% used to train the model. The dataset split is checked. 
 <img width="1141" height="125" alt="image" src="https://github.com/user-attachments/assets/dea9ddc6-1a2c-47db-a578-47cbe90f1fbf" />
+
+<img width="1132" height="541" alt="image" src="https://github.com/user-attachments/assets/21c6b3af-5e25-4eee-98b5-5bf6a52881de" />
+The split and balance displayed as charts. 
+
 <img width="427" height="232" alt="image" src="https://github.com/user-attachments/assets/ec049376-37a9-48a5-80a1-c2a0f792b8d3" />
+The correlation is checked as a table and displayed. 
+<img width="797" height="665" alt="image" src="https://github.com/user-attachments/assets/165021fd-db1f-42d9-817a-fe893b4f227c" />
+Heatmap of correlation
+<img width="612" height="350" alt="image" src="https://github.com/user-attachments/assets/3f071554-9b24-4126-9660-0d057524c2b0" />
+The model is initalised
+<img width="890" height="662" alt="image" src="https://github.com/user-attachments/assets/684b4483-278a-422c-9d5e-57ca05dd730a" />
+Scaling the data
+<img width="1122" height="617" alt="image" src="https://github.com/user-attachments/assets/a01babaa-6271-48da-a495-d46726a9bd1d" />
+Accuracy is checked - in this instance, it is not a very accurate result
+<img width="545" height="215" alt="image" src="https://github.com/user-attachments/assets/531df997-c9c8-47d5-8288-02a2735b5296" />
+Secondary accuracy test.
 
-
-
+## Results
+The results from the logistical regression show that there is a low accuracy rate, 50%, and therefore showing a link between a promotion or sales event and an item being returned is slim. 
 
 
 
