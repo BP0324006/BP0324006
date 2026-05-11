@@ -5,7 +5,7 @@ In the run up to Christmas, retail stores hold sales events, such as Black Frida
 As sales events can increase the likelihood for individuals to purchase items on a whim, this analytical project has been introduced to see if items are more likely to be returned if they were purchased during a sales event. 
 
 
-### Data 
+### Data and Analysis
 The data has been sourced from Kaggle.com and provides information on sales, both in store and online, for items on various categories, including if it was sold during a Black Friday or Christmas Market event. The dataset contains information on the customer as well, which for this instance, was not needed for analysis. 
 The data was clean and contained no duplicated entries as found within the results. As such, no cleaning or deduplication was required. Multiple columns were dropped from the source table as they provided no assistance to the results. 
 <img width="287" height="91" alt="image" src="https://github.com/user-attachments/assets/19440773-77d2-4f68-95ab-83e7e59b93cf" />
@@ -14,7 +14,6 @@ Checking Duplicated Rows
 Dropping Extra Columns
 <img width="552" height="282" alt="image" src="https://github.com/user-attachments/assets/4f05c938-eef2-4b50-88a7-57f3ce1758d0" />
 Table After Dropping Extra Columns
-
 The remaining columns; promotions applied, event and return flag, are then transformed into binary fields - true converting to 1, false 0 and a sales event converting to 1. The text fields were then dropped, leaving the binary fields only. 
 <img width="897" height="147" alt="image" src="https://github.com/user-attachments/assets/e352bd09-20f6-434b-8be6-6d6603586791" />
 Coverting to Binary Fields
@@ -22,7 +21,6 @@ Coverting to Binary Fields
 Results
 <img width="626" height="332" alt="image" src="https://github.com/user-attachments/assets/e76cf2b8-24f2-4db4-9f15-f5d118630362" />
 Binary Fields Remaining
-
 Next, I took the return flag field to see how balanced the results are in the data set. The chart easily shows how balanced the results are. 
 <img width="746" height="680" alt="image" src="https://github.com/user-attachments/assets/e3ce03c7-c712-47c7-abb3-afb9259a60a0" />
 Balance of Outcomes
@@ -44,7 +42,8 @@ Accuracy is checked - in this instance, it is not a very accurate result
 <img width="545" height="215" alt="image" src="https://github.com/user-attachments/assets/531df997-c9c8-47d5-8288-02a2735b5296" />
 Secondary accuracy test.
 ## Results
-The results from the logistical regression show that there is a low accuracy rate, 50%, and therefore showing a link between a promotion or sales event and an item being returned is slim. 
+The results from the logistical regression show that there is a low accuracy rate, 50%, and therefore showing a link between a promotion or sales event and an item being returned is slim. This is encouraging as it shows that items are not regularly returned because of promotions or sales events encouraging customers to purchase items. 
+Further analysis should be carried out to see if there is a pattern within the data to show why items are returned but providing more sales events during the year or christmas period would not encourage a high percentage of returns to occur. If the analysis was broken down to category of goods, there could be a pattern showing, for example, a higher rate of clothing returns (for example, the recipient of the gift requiring a differing size). 
 
 
 
