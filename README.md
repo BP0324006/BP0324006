@@ -5,7 +5,7 @@ In the run up to Christmas, retail stores hold sales events, such as Black Frida
 As sales events can increase the likelihood for individuals to purchase items on a whim, this analytical project has been introduced to see if items are more likely to be returned if they were purchased during a sales event. 
 
 
-### Data Source
+### Data 
 The data has been sourced from Kaggle.com and provides information on sales, both in store and online, for items on various categories, including if it was sold during a Black Friday or Christmas Market event. The dataset contains information on the customer as well, which for this instance, was not needed for analysis. 
 The data was clean and contained no duplicated entries as found within the results. As such, no cleaning or deduplication was required. Multiple columns were dropped from the source table as they provided no assistance to the results. 
 <img width="287" height="91" alt="image" src="https://github.com/user-attachments/assets/19440773-77d2-4f68-95ab-83e7e59b93cf" />
@@ -29,10 +29,8 @@ Balance of Outcomes
 <img width="505" height="222" alt="image" src="https://github.com/user-attachments/assets/e56d13ac-39dd-4d58-8011-05b38e84c8bb" />
 The dataset is split into a training and test set, with 80% used to train the model. The dataset split is checked. 
 <img width="1141" height="125" alt="image" src="https://github.com/user-attachments/assets/dea9ddc6-1a2c-47db-a578-47cbe90f1fbf" />
-
 <img width="1132" height="541" alt="image" src="https://github.com/user-attachments/assets/21c6b3af-5e25-4eee-98b5-5bf6a52881de" />
 The split and balance displayed as charts. 
-
 <img width="427" height="232" alt="image" src="https://github.com/user-attachments/assets/ec049376-37a9-48a5-80a1-c2a0f792b8d3" />
 The correlation is checked as a table and displayed. 
 <img width="797" height="665" alt="image" src="https://github.com/user-attachments/assets/165021fd-db1f-42d9-817a-fe893b4f227c" />
@@ -45,7 +43,6 @@ Scaling the data
 Accuracy is checked - in this instance, it is not a very accurate result
 <img width="545" height="215" alt="image" src="https://github.com/user-attachments/assets/531df997-c9c8-47d5-8288-02a2735b5296" />
 Secondary accuracy test.
-
 ## Results
 The results from the logistical regression show that there is a low accuracy rate, 50%, and therefore showing a link between a promotion or sales event and an item being returned is slim. 
 
